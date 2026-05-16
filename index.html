@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Ananta Surya Kurniawan — Civil Engineering, traffic engineering, and microscopic simulation." />
+  <title>Ananta Surya Kurniawan — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Instrument+Sans:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="nav__brand" href="#hero">portfolio</a>
+      <button type="button" class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span class="nav__toggle-bar" aria-hidden="true"></span>
+        <span class="nav__toggle-bar" aria-hidden="true"></span>
+      </button>
+      <ul id="nav-menu" class="nav__list">
+        <li><a href="#hero">Cover</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#academic">Academic</a></li>
+        <li><a href="#capstone">Capstone</a></li>
+        <li><a href="#ta">TA</a></li>
+        <li><a href="#janti">Janti</a></li>
+        <li><a href="#internship">Internship</a></li>
+        <li><a href="#gt-bawen">GT Bawen</a></li>
+        <li><a href="#banyurejo">Banyurejo</a></li>
+        <li><a href="#kkn">KKN</a></li>
+        <li><a href="#thesis">Thesis</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1 Hero -->
+    <section id="hero" class="section section--hero hero--editorial">
+      <div class="hero__grid">
+        <div class="hero__left">
+          <span class="hero__label">Portfolio</span>
+          <div class="hero__divider-v" aria-hidden="true"></div>
+        </div>
+        <div class="hero__right">
+          <p class="hero__eyebrow">Civil Engineering Graduate</p>
+          <h1 class="hero__name">Ananta<br>Surya<br>Kurniawan</h1>
+          <p class="hero__year">2026</p>
+          <p class="hero__tag">Portfolio of Transportation Analysis &amp; Civil Engineering Design</p>
+          <hr class="hero__rule" aria-hidden="true" />
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 Brief Profile -->
+    <section id="profile" class="section">
+      <div class="section__inner section__inner--split profile-split">
+        <div class="split__content">
+          <h2 class="section__title">Brief Profile</h2>
+          <div class="prose">
+            <p>I am a Civil Engineering fresh graduate from Universitas Gadjah Mada with a strong focus on traffic engineering and microscopic simulation. My experience spans transportation modeling for real infrastructure projects, road geometric design, and civil engineering drafting, supported by hands-on involvement in both professional and community settings.</p>
+            <p>This portfolio showcases my technical contributions across industry internships, undergraduate thesis research, and academic projects, and I look forward to discussing future opportunities.</p>
+        </div>
+        <dl class="meta-list">
+          <div class="meta-list__row">
+            <dt>Contact</dt>
+            <dd><a href="mailto:contact.anantasurya@gmail.com">contact.anantasurya@gmail.com</a></dd>
+          </div>
+          <div class="meta-list__row">
+            <dt>Location</dt>
+            <dd>Surakarta, Central Java</dd>
+          </div>
+        </dl>
+        </div>
+
+        <div class="split__media profile-photo-wrap">
+          <figure class="profile-photo">
+            <button
+              type="button"
+              class="image-gallery__trigger profile-photo__trigger"
+              data-fullsrc="pics/profile-photo.jpg"
+              aria-label="View full size: Ananta Surya Kurniawan"
+            >
+              <img
+                src="pics/profile-photo.jpg"
+                alt="Ananta Surya Kurniawan"
+                loading="lazy"
+              />
+            </button>
+            <figcaption class="profile-photo__caption">Ananta Surya Kurniawan</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 Academic Project -->
+    <section id="academic" class="section section--alt">
+      <div class="section__inner">
+        <h2 class="section__title">Academic Project</h2>
+        <div class="prose">
+          <p>During my Civil Engineering studies, I explored several software tools applied in transportation and spatial analysis. These include microscopic traffic simulation using PTV Vissim, traffic assignment and network analysis using PTV Visum, and spatial data mapping using QGIS, applied to produce an administrative map of Sleman Regency.</p>
+        </div>
+        <h3 class="subsection__title">Key Highlights</h3>
+        <ul class="bullet-list">
+          <li><strong>Vissim:</strong> microsimulation of signalized intersections</li>
+          <li><strong>Visum:</strong> traffic assignment and O-D matrix analysis</li>
+          <li><strong>QGIS:</strong> administrative mapping, Sleman Regency</li>
+        </ul>
+
+        <div class="gallery-block section-gallery">
+          <h3 class="gallery-block__title">Software Applications</h3>
+          <div class="carousel" data-carousel aria-roledescription="carousel" tabindex="0">
+            <div class="carousel__viewport">
+              <ul class="carousel__track" role="list">
+                <li class="carousel__slide" role="listitem" data-caption="PTV Vissim - Microscopic Traffic Simulation">
+                  <figure class="carousel__figure">
+                    <button
+                      type="button"
+                      class="image-gallery__trigger carousel__trigger"
+                      data-fullsrc="pics/academic_vissim.png"
+                      aria-label="View full size: PTV Vissim - Microscopic Traffic Simulation"
+                    >
+                      <img
+                        src="pics/academic_vissim.png"
+                        alt="PTV Vissim - Microscopic Traffic Simulation"
+                        loading="lazy"
+                      />
+                    </button>
+                  </figure>
+                </li>
+                <li class="carousel__slide" role="listitem" data-caption="PTV Visum - Traffic Assignment &amp; Network Analysis" aria-hidden="true">
+                  <figure class="carousel__figure">
+                    <button
+                      type="button"
+                      class="image-gallery__trigger carousel__trigger"
+                      data-fullsrc="pics/academic_visum.png"
+                      aria-label="View full size: PTV Visum - Traffic Assignment &amp; Network Analysis"
+                    >
+                      <img
+                        src="pics/academic_visum.png"
+                        alt="PTV Visum - Traffic Assignment &amp; Network Analysis"
+                        loading="lazy"
+                      />
+                    </button>
+                  </figure>
+                </li>
+                <li class="carousel__slide" role="listitem" data-caption="QGIS - Administrative Mapping of Sleman Regency" aria-hidden="true">
+                  <figure class="carousel__figure">
+                    <button
+                      type="button"
+                      class="image-gallery__trigger carousel__trigger"
+                      data-fullsrc="pics/academic_qgis.png"
+                      aria-label="View full size: QGIS - Administrative Mapping of Sleman Regency"
+                    >
+                      <img
+                        src="pics/academic_qgis.png"
+                        alt="QGIS - Administrative Mapping of Sleman Regency"
+                        loading="lazy"
+                      />
+                    </button>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+
+            <div class="carousel__controls">
+              <button type="button" class="carousel__arrow carousel__arrow--prev" aria-label="Previous slide">
+                <span aria-hidden="true">&#8592;</span>
+              </button>
+              <div class="carousel__dots" role="tablist" aria-label="Choose slide">
+                <button type="button" class="carousel__dot is-active" role="tab" aria-selected="true" aria-label="Slide 1: PTV Vissim" data-slide="0"></button>
+                <button type="button" class="carousel__dot" role="tab" aria-selected="false" aria-label="Slide 2: PTV Visum" data-slide="1"></button>
+                <button type="button" class="carousel__dot" role="tab" aria-selected="false" aria-label="Slide 3: QGIS" data-slide="2"></button>
+              </div>
+              <button type="button" class="carousel__arrow carousel__arrow--next" aria-label="Next slide">
+                <span aria-hidden="true">&#8594;</span>
+              </button>
+            </div>
+
+            <p class="carousel__caption image-gallery__caption" aria-live="polite">PTV Vissim - Microscopic Traffic Simulation</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 Capstone + video -->
+    <section id="capstone" class="section">
+      <div class="section__inner section__inner--split">
+        <div class="split__media">
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/xTHFal4SSnk"
+              title="Capstone Project — Jogja–Bawen Toll Road Section 2"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div class="capstone-galleries">
+            <div class="gallery-block">
+              <h3 class="gallery-block__title">Technical Drawings</h3>
+              <div class="image-gallery" role="list">
+                <figure class="image-gallery__item" role="listitem">
+                  <button
+                    type="button"
+                    class="image-gallery__trigger"
+                    data-fullsrc="pics/capstone_horizontal.jpg"
+                    aria-label="View full size: Horizontal Alignment Detail"
+                  >
+                    <img
+                      src="pics/capstone_horizontal.jpg"
+                      alt="Horizontal Alignment Detail"
+                      loading="lazy"
+                    />
+                  </button>
+                  <figcaption class="image-gallery__caption">Horizontal Alignment Detail</figcaption>
+                </figure>
+                <figure class="image-gallery__item" role="listitem">
+                  <button
+                    type="button"
+                    class="image-gallery__trigger"
+                    data-fullsrc="pics/capstone_interchange.jpg"
+                    aria-label="View full size: Interchange Detail"
+                  >
+                    <img
+                      src="pics/capstone_interchange.jpg"
+                      alt="Interchange Detail"
+                      loading="lazy"
+                    />
+                  </button>
+                  <figcaption class="image-gallery__caption">Interchange Detail</figcaption>
+                </figure>
+                <figure class="image-gallery__item" role="listitem">
+                  <button
+                    type="button"
+                    class="image-gallery__trigger"
+                    data-fullsrc="pics/capstone_drainage.jpg"
+                    aria-label="View full size: Drainage Detail"
+                  >
+                    <img
+                      src="pics/capstone_drainage.jpg"
+                      alt="Drainage Detail"
+                      loading="lazy"
+                    />
+                  </button>
+                  <figcaption class="image-gallery__caption">Drainage Detail</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="gallery-block">
+              <h3 class="gallery-block__title">Project Documentation</h3>
+              <div class="image-gallery" role="list">
+                <figure class="image-gallery__item" role="listitem">
+                  <button
+                    type="button"
+                    class="image-gallery__trigger"
+                    data-fullsrc="pics/capstone_team.jpeg"
+                    aria-label="View full size: Capstone Project Team"
+                  >
+                    <img
+                      src="pics/capstone_team.jpeg"
+                      alt="Capstone Project Team"
+                      loading="lazy"
+                    />
+                  </button>
+                  <figcaption class="image-gallery__caption">Capstone Project Team</figcaption>
+                </figure>
+                <figure class="image-gallery__item" role="listitem">
+                  <button
+                    type="button"
+                    class="image-gallery__trigger"
+                    data-fullsrc="pics/capstone_best%20design.jpeg"
+                    aria-label="View full size: Runner Up - Best Design Award"
+                  >
+                    <img
+                      src="pics/capstone_best%20design.jpeg"
+                      alt="Runner Up - Best Design Award"
+                      loading="lazy"
+                    />
+                  </button>
+                  <figcaption class="image-gallery__caption">Runner Up - Best Design Award</figcaption>
+                </figure>
+                <figure class="image-gallery__item" role="listitem">
+                  <button
+                    type="button"
+                    class="image-gallery__trigger"
+                    data-fullsrc="pics/capstone_poster.png"
+                    aria-label="View full size: Project Poster"
+                  >
+                    <img
+                      src="pics/capstone_poster.png"
+                      alt="Project Poster"
+                      loading="lazy"
+                    />
+                  </button>
+                  <figcaption class="image-gallery__caption">Project Poster</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="split__content">
+          <h2 class="section__title">Capstone Project</h2>
+          <div class="prose">
+            <p>As part of my Civil Engineering studies at Universitas Gadjah Mada, I contributed to a comprehensive feasibility study and Detail Engineering Design of the Jogja–Bawen Toll Road Section 2, covering stages from preliminary study through to DED production.</p>
+          </div>
+          <h3 class="subsection__title">Contribution Highlights</h3>
+          <ul class="bullet-list">
+            <li>Conducted hydrological analysis to determine design discharge</li>
+            <li>Designed roadside drainage (side drain) based on calculated runoff</li>
+            <li>Analyzed drainage channel and culvert locations and designed hydraulic structures accordingly</li>
+          </ul>
+          <p class="award"><strong>Award:</strong> Runner Up in Best Design — Capstone Design Exhibition, Dept. of Civil &amp; Environmental Engineering UGM</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 Teaching Assistant -->
+    <section id="ta" class="section section--alt">
+      <div class="section__inner">
+        <h2 class="section__title">Teaching Assistant: Civil Engineering Software</h2>
+        <div class="prose">
+          <p>Served as a Teaching Assistant for the Civil Engineering Software course at Universitas Gadjah Mada, guiding students in the application of PTV Vissim for microscopic traffic simulation. Responsibilities included supervising practical sessions, reviewing student models, and providing technical feedback on simulation outputs.</p>
+        </div>
+        <h3 class="subsection__title">Key Highlights</h3>
+        <ul class="bullet-list">
+          <li>Assisted in delivering hands-on PTV Vissim modeling sessions</li>
+          <li>Supervised student projects on intersection microsimulation</li>
+          <li>Developed work planning documentation for TA responsibilities</li>
+        </ul>
+
+        <div class="section-gallery">
+          <div class="image-gallery image-gallery--cols-2" role="list">
+            <figure class="image-gallery__item" role="listitem">
+              <button
+                type="button"
+                class="image-gallery__trigger"
+                data-fullsrc="pics/ta_assignment_guidelines.png"
+                aria-label="View full size: Assignment Guidelines"
+              >
+                <img
+                  src="pics/ta_assignment_guidelines.png"
+                  alt="Assignment Guidelines"
+                  loading="lazy"
+                />
+              </button>
+              <figcaption class="image-gallery__caption">Assignment Guidelines</figcaption>
+            </figure>
+            <figure class="image-gallery__item" role="listitem">
+              <button
+                type="button"
+                class="image-gallery__trigger"
+                data-fullsrc="pics/ta_krk.png"
+                aria-label="View full size: Kartu Rencana Kerja (Work Plan)"
+              >
+                <img
+                  src="pics/ta_krk.png"
+                  alt="Kartu Rencana Kerja (Work Plan)"
+                  loading="lazy"
+                />
+              </button>
+              <figcaption class="image-gallery__caption">Kartu Rencana Kerja (Work Plan)</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 Signalized Intersection + video -->
+    <section id="janti" class="section">
+      <div class="section__inner section__inner--split">
+        <div class="split__media">
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/Rk4W_-MdPQ8"
+              title="Signalized Intersection Microsimulation — Simpang Janti"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="split__content">
+          <h2 class="section__title">Signalized Intersection Microsimulation</h2>
+          <div class="prose">
+            <p>As part of the Civil Engineering Software course, we developed a microscopic traffic simulation model of Simpang Janti, Yogyakarta using PTV Vissim. The project covered the full modeling workflow from network digitization and calibration through to traffic management scenario testing.</p>
+          </div>
+          <h3 class="subsection__title">Key Highlights</h3>
+          <ul class="bullet-list">
+            <li>Digitized intersection geometry and calibrated driver behavior parameters</li>
+            <li>Tested traffic management scenarios to evaluate intersection performance</li>
+            <li>Produced simulation-based outputs as a basis for operational recommendations</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 Internship -->
+    <section id="internship" class="section section--alt">
+      <div class="section__inner">
+        <h2 class="section__title">Internship Experience</h2>
+        <div class="experience-grid">
+          <article class="experience-card">
+            <h3 class="experience-card__company">PT Jasamarga Jogja Bawen (JJB) – Jogja-Bawen Toll Road (Section 2)</h3>
+            <p class="experience-card__role">Technical Planning Intern</p>
+            <p class="experience-card__period">Des 2025 – Feb 2026</p>
+            <p class="experience-card__desc">Supported DED review, PTV Vissim microsimulation, and design coordination for a National Strategic Project (PSN).</p>
+          </article>
+          <article class="experience-card">
+            <h3 class="experience-card__company">PT. Adhi Karya (Persero) Tbk – Jogja-Bawen Toll Road (Section 1) Project</h3>
+            <p class="experience-card__role">Project Monitoring Intern</p>
+            <p class="experience-card__period">Jan 2025 – Feb 2025</p>
+            <p class="experience-card__desc">Monitored daily site progress for earthworks and structural activities, and prepared progress reports with field documentation.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8 GT Bawen + video -->
+    <section id="gt-bawen" class="section">
+      <div class="section__inner section__inner--split">
+        <div class="split__media">
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/VPMV1KdpklY"
+              title="Bawen Toll Gate Relocation Modeling"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="split__content">
+          <h2 class="section__title">Bawen Toll Gate (GT) Relocation Modeling</h2>
+          <div class="prose">
+            <p>During my internship at PT Jasamarga Jogja Bawen, I developed a PTV Vissim microsimulation model to evaluate the possibility of relocating GT Bawen from the main road to ramp on/off areas of the Yogyakarta–Bawen Toll Road.</p>
+          </div>
+          <h3 class="subsection__title">Key Highlights</h3>
+          <ul class="bullet-list">
+            <li>Digitized intersection geometry and calibrated driver behavior parameters against field observations (GEH &lt; 1.0)</li>
+            <li>Tested three TME scenarios; identified signal timing optimization (130s cycle) as most effective configuration</li>
+            <li>Average queue length at GT Off reduced from 291m to 208m, significantly lowering spillback risk onto the main access intersection</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9 Banyurejo + video -->
+    <section id="banyurejo" class="section section--alt">
+      <div class="section__inner section__inner--split">
+        <div class="split__media">
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/U79otHQUxxM"
+              title="Integrated Rest Area Banyurejo Traffic Circulation"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="split__content">
+          <h2 class="section__title">Integrated Rest Area Banyurejo Traffic Circulation Modeling</h2>
+          <div class="prose">
+            <p>During my internship at PT Jasamarga Jogja Bawen, I developed a PTV Vissim microsimulation model to evaluate the internal circulation design of the Banyurejo Integrated Rest Area at Simpang Susun Banyurejo.</p>
+          </div>
+          <h3 class="subsection__title">Key Highlights</h3>
+          <ul class="bullet-list">
+            <li>Modeled internal one-way loop circulation separately for motorcycles, passenger cars, and heavy vehicles</li>
+            <li>Validated circulation design against projected traffic growth (4.37%/year), confirming adequate service levels through 2028</li>
+            <li>Identified high-risk merging at exit zone; recommended acceleration lane extension to prevent mainline disruption during peak periods</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10 KKN -->
+    <section id="kkn" class="section">
+      <div class="section__inner section__inner--split">
+        <div class="split__content">
+          <h2 class="section__title">KKN Project</h2>
+        <p class="section__subheading">KKN-PPM UGM | Desa Krandegan, Kec. Bulukerto, Kab. Wonogiri</p>
+        <div class="prose">
+          <p>As part of UGM's Community Service Program (KKN-PPM) Period II 2025, I was placed in Desa Krandegan, a village recognized as Runner-Up of the Wonogiri Innovation Award 2023 and home to one of Indonesia's top 10 nationally-ranked waste banks. Aligned with the unit's theme of integrating digital technology into natural resource management, I initiated and led programs targeting both environmental resilience and community digital empowerment.</p>
+        </div>
+        <h3 class="subsection__title">Key Highlights</h3>
+        <ul class="bullet-list">
+          <li>Mapped the full distribution network of 47 agents of Bank Sampah Berseri (BSB) — one of Indonesia's top 10 waste banks — by conducting GPS-based field data collection, cleaning and validating coordinate datasets, and visualizing results in Google My Maps; delivered both an interactive digital map and a high-resolution print version to BSB management as an operational asset for route planning and network monitoring</li>
+          <li>Conducted an end-to-end AI literacy workshop for 30 members of Karang Taruna Parikesit, covering needs assessment, tool selection, material development (25-slide deck), and hands-on practice sessions using Canva and Gemini; participants successfully produced original digital content including poster designs and written copy</li>
+        </ul>
+        </div>
+
+        <div class="split__media kkn-media">
+          <figure class="kkn-feature">
+          <button
+            type="button"
+            class="image-gallery__trigger kkn-feature__trigger"
+            data-fullsrc="pics/kkn_aiworkshop.jpg"
+            aria-label="View full size: AI Literacy Workshop for Karang Taruna Parikesit"
+          >
+            <img
+              src="pics/kkn_aiworkshop.jpg"
+              alt="AI Literacy Workshop for Karang Taruna Parikesit (30 participants)"
+              loading="lazy"
+            />
+          </button>
+          <figcaption class="image-gallery__caption">AI Literacy Workshop for Karang Taruna Parikesit (30 participants)</figcaption>
+        </figure>
+
+        <div class="map-embed">
+          <iframe
+            src="https://www.google.com/maps/d/embed?mid=1jJybCBYXvKRWgL_9tBoMxwUp7bJSdKU&amp;ehbc=2E312F"
+            title="Bank Sampah Berseri agent network — Google My Maps"
+            width="100%"
+            height="480"
+            frameborder="0"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11 Thesis + video -->
+    <section id="thesis" class="section section--alt">
+      <div class="section__inner section__inner--split">
+        <div class="split__media">
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/LuRzrRCByCc"
+              title="Undergraduate Thesis — PUDO Facility Management Lempuyangan Station"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <figure class="thesis-photo">
+            <button
+              type="button"
+              class="image-gallery__trigger thesis-photo__trigger"
+              data-fullsrc="pics/thesis-defense-photo.jpeg"
+              aria-label="View full size: Thesis Consultation and Defense Session"
+            >
+              <img
+                src="pics/thesis-defense-photo.jpeg"
+                alt="Thesis Consultation &amp; Defense Session with Supervisor and Examiners"
+                loading="lazy"
+              />
+            </button>
+            <figcaption class="thesis-photo__caption">Thesis Consultation &amp; Defense Session with Supervisor Ir. Mukhammad Rizka Fahmi Amrozi, Ph.D. and Examiners</figcaption>
+          </figure>
+        </div>
+        <div class="split__content">
+          <h2 class="section__title">Undergraduate Thesis</h2>
+          <p class="section__subheading">PUDO Facility Management Analysis on Lempuyangan Station</p>
+          <div class="prose">
+            <p>A traffic engineering study analyzing the performance of Lempuyangan Road, Yogyakarta, affected by Pick-Up and Drop-Off (PUDO) activities using PTV Vissim microscopic simulation across multiple management scenarios and a 20-year traffic projection.</p>
+          </div>
+          <h3 class="subsection__title">Key Highlights</h3>
+          <ul class="bullet-list">
+            <li><strong>Microscopic Traffic Simulation:</strong> Developed a PTV Vissim model validated with GEH &lt; 0.2 and MAPE 7.3%, replicating real-world mixed-traffic conditions on an urban arterial road</li>
+            <li><strong>Performance Analysis:</strong> Peak hour degree of saturation reached DJ 0.910, exceeding PKJI 2023 threshold of 0.85, with vehicle speed dropping to 9.8 km/h due to high side friction from PUDO activities</li>
+            <li><strong>Scenario Evaluation:</strong> Tested four PUDO management scenarios across a 20-year traffic projection; prohibiting on-street parking reduced average queue length by 62.2% and stabilized travel time under 2 minutes</li>
+          </ul>
+
+          <p class="supervisor"><strong>Thesis Supervisor:</strong> Ir. Mukhammad Rizka Fahmi Amrozi, S.T., M.Sc., Ph.D., IPM.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12 Thank You / Contact -->
+    <section id="contact" class="section section--footer">
+      <div class="section__inner section__inner--center">
+        <h2 class="section__title">Thank You</h2>
+        <p class="footer__contact"><a href="mailto:contact.anantasurya@gmail.com">contact.anantasurya@gmail.com</a></p>
+        <p class="footer__links">
+          <a href="https://www.linkedin.com/in/ananta-surya-kurniawan/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <div
+    id="lightbox"
+    class="lightbox"
+    hidden
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="lightbox-caption"
+    aria-hidden="true"
+  >
+    <button type="button" class="lightbox__close" aria-label="Close image viewer">&times;</button>
+    <div class="lightbox__backdrop" data-lightbox-close tabindex="-1" aria-hidden="true"></div>
+    <div class="lightbox__content">
+      <img class="lightbox__img" src="" alt="" />
+      <p id="lightbox-caption" class="lightbox__caption"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
